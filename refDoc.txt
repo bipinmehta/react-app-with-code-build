@@ -1,0 +1,11 @@
+Give writ permission to .git folder: chmod -R +w .git
+Remove .git folder: rm -r .git
+Then run following commands:
+
+echo "# react-app-with-code-build" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bipinmehta/react-app-with-code-build.git
+git push -u origin main
